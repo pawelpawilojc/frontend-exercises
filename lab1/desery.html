@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Ranking najlepszych deserów na świecie - polskie ciasta w czołówce
+            Ranking najlepszych deserów na świecie - polskie ciasta w czołówce,
             ale wygrał jabłecznik
         </title>
         <link rel="stylesheet" href="desery.css" />
@@ -17,18 +17,29 @@
                     "name": "Izabela Popko",
                     "url": "https://www.rp.pl/autor/11401-izabela-popko"
                 },
-                "headline": "Ranking najlepszych deserów na świecie - polskie ciasta w czołówce ale wygrał jabłecznik",
+                "headline": "Ranking najlepszych deserów na świecie - polskie ciasta w czołówce, ale wygrał jabłecznik",
                 "datePublished": "2023-01-31"
             }
         </script>
     </head>
     <body>
-        <header></header>
+        <header id="top">
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="#top">Ranking</a></li>
+                    <li><a href="#jablecznik">Jabłecznik</a></li>
+                    <li><a href="#sernik">Sernik</a></li>
+                    <li><a href="#sekacz">Sękacz</a></li>
+                    <li><a href="#karpatka">Karpatka</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <article>
+            <div class="row"></div>
+            <article id="ranking">
                 <h1>
                     Ranking najlepszych deserów na świecie -<br />
-                    polskie ciasta w czołówce ale wygrał jabłecznik
+                    polskie ciasta w czołówce, ale wygrał jabłecznik
                 </h1>
                 <!--Autorka nie jest nagłówkiem czwartego stopnia - bo w ogóle nie powina być nagłówkiem,
                 i bo nie było jeszcze h2 i h3-->
@@ -41,7 +52,11 @@
                     ścisłej czołówce znalazły się też karpatka i sękacz.
                     Zwycięzcą został jednak jabłecznik.
                 </p>
-                <img src="img/wypieki.jpg" alt="Cukiernik w trakcie pracy" />
+                <img
+                    src="img/wypieki.jpg"
+                    alt="Cukiernik w trakcie pracy"
+                    class="top-image"
+                />
                 <p>
                     „Taste Atlas” to coraz popularniejsza internetowa baza
                     tradycyjnych potraw regionalnych z całego świata, a także
@@ -180,7 +195,7 @@
                 </p>
                 <h3>Składniki:</h3>
                 <h4>Ciasto:</h4>
-                <ul>
+                <ul class="ingredients">
                     <li>600g mąki pszennej (użyłam tortowej)</li>
                     <li>300g schłodzonego masła</li>
                     <li>200g cukru</li>
@@ -190,7 +205,7 @@
                     <li>1 duże opakowanie cukru wanilinowego 32g</li>
                 </ul>
                 <h4>Nadzienie</h4>
-                <ul>
+                <ul class="ingredients">
                     <li>2kg umytych jabłek</li>
                     <li>150g cukru</li>
                     <li>2 łyżeczki cynamonu</li>
@@ -298,7 +313,7 @@
                     tradycyjny sernik wychodzi puszysty i lekki.
                 </p>
                 <h3>Składniki:</h3>
-                <ul>
+                <ul class="ingredients">
                     <li>twaróg 1 kg</li>
                     <li>masło 200 g</li>
                     <li>żółtko 6 szt.</li>
@@ -373,7 +388,7 @@
                     zaskoczcie swoich domowników tym przysmakiem!
                 </p>
                 <h3>Składniki:</h3>
-                <ul>
+                <ul class="ingredients">
                     <li>masło 200 g</li>
                     <li>cukier 100 g</li>
                     <li>cukier puder 100 g</li>
@@ -455,7 +470,7 @@
                     karpatkę idealną.
                 </p>
                 <h3>Składniki:</h3>
-                <ul>
+                <ul class="ingredients">
                     <li>mleko 650 ml</li>
                     <li>wanilia 1 szt.</li>
                     <li>budyń 80 g</li>
