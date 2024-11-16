@@ -1,0 +1,31 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-variant: small-caps;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+html {
+    scroll-behavior: smooth;
+}
+caption {
+    caption-side: bottom;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+img.ciasto {
+    width: 20%;
+}
+
+img.left {
+    float: left;
+}
+img.right {
+    float: right;
+}
