@@ -10,3 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         minute: "2-digit",
     })}`;
 });
+
+function confirmRedirect() {
+    return confirm("Czy na pewno?");
+}
