@@ -62,9 +62,37 @@
                     <button id="submitPassword">ENTER</button>
                     <div id="wrongPassword">Niepoprawne hasło</div>
                 </div>
-
+                <div class="filters">
+                    <label>
+                        <input
+                            type="radio"
+                            name="filter"
+                            value="none"
+                            checked
+                        />
+                        Normalny
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="sepia" /> Sepia
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="grayscale" />
+                        Czarno-biały
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="invert" />
+                        Negatyw
+                    </label>
+                </div>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="borderCheckbox" /> Dodaj
+                        ramkę
+                    </label>
+                </div>
                 <p>
                     <img
+                        id="cakeImage"
                         src="img/recipe_main.jpg"
                         alt="gotowe ciasto adwokat na talerzu"
                         class="top-image"

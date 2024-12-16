@@ -53,3 +53,35 @@ passwordInput.addEventListener("keydown", (e) => {
 passwordInput.addEventListener("input", () => {
     wrongPassword.style.display = "none";
 });
+
+const filters = document.querySelectorAll('input[name="filter"]');
+const cakeImage = document.getElementById("cakeImage");
+
+filters.forEach((filter) => {
+    filter.addEventListener("change", (e) => {
+        const filterValue = e.target.value;
+
+        switch (filterValue) {
+            case "sepia":
+                cakeImage.style.filter = "sepia(100%)";
+                break;
+            case "grayscale":
+                cakeImage.style.filter = "grayscale(100%)";
+                break;
+            case "invert":
+                cakeImage.style.filter = "invert(100%)";
+                break;
+            default:
+                cakeImage.style.filter = "none";
+                break;
+        }
+    });
+});
+
+borderCheckbox.addEventListener("change", (e) => {
+    if (e.target.checked) {
+        cakeImage.classList.add("bordered");
+    } else {
+        cakeImage.classList.remove("bordered");
+    }
+});
