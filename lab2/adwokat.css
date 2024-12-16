@@ -192,13 +192,13 @@ main {
     padding: 8px;
     border: none;
     border-radius: 5px;
-    background-color: blue;
+    background-color: chocolate;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 #submitPassword:hover {
-    background-color: greenyellow;
+    background-color: burlywood;
 }
 #wrongPassword {
     display: none;
@@ -228,19 +228,17 @@ main {
 
 #podoba {
     padding: 8px;
-    border: solid;
-    border-width: 5px;
-    border-color: blue;
+    border: none;
     border-radius: 5px;
-    background-color: blue;
+    background-color: chocolate;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 #podoba:hover {
-    border-color: goldenrod;
+    background-color: burlywood;
 }
 #podoba.clicked {
-    background-color: greenyellow;
-    border-color: greenyellow;
+    background-color: peachpuff;
+    color: black;
 }
