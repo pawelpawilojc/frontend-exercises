@@ -6,3 +6,16 @@ function updateTimeSpent() {
 }
 
 setInterval(updateTimeSpent, 1000);
+
+function redirectToAdwokat() {
+    window.location.href = "../adwokat.html";
+}
+
+window.onload = function () {
+    redirectTimeout = setTimeout(redirectToAdwokat, 10000);
+};
+
+function likePage() {
+    clearTimeout(redirectTimeout);
+    document.getElementById("podoba").classList += "clicked";
+}

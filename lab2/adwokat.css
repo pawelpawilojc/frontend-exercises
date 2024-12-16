@@ -225,3 +225,22 @@ main {
         transform: translateX(0);
     }
 }
+
+#podoba {
+    padding: 8px;
+    border: solid;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#podoba:hover {
+    border-color: goldenrod;
+}
+#podoba.clicked {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
