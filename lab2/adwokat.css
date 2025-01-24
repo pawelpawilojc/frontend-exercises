@@ -224,7 +224,7 @@ main {
 
 #cakeImage {
     width: 100%;
-    border: none;
+    border: 2px solid transparent;
 }
 #cakeImage.bordered {
     border: 2px solid black !important;
